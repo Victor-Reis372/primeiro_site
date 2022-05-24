@@ -1,0 +1,54 @@
+.conteiner_principal{
+    display: flex;
+    justify-content: center;
+    
+    border-style: solid;
+    flex-direction: column;
+    margin: 8px;
+}
+
+
+
+.conteiner_foto{
+    display:flex ;
+    margin: 8px;
+    border-style: solid;
+    justify-content: center;
+
+}
+
+
+#foto{
+    min-width: 10%;
+    min-height:10%;
+    max-width: 25%;
+    max-width: 25%;
+    border-radius: 50%;
+    margin: 16px;
+}
+
+.conteiner_inferior{
+    display:flex ;
+    margin: 8px;
+    border-style: solid;
+    justify-content: space-around;
+
+}
+
+.conteiner_terceario{
+    display: flex;
+    border-style: solid;
+    flex-wrap: wrap;
+    margin: 8px;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 100%;
+}
+
+h1{
+    font-size: 50px;
+}
+
+#texto{
+    margin: 10px;
+}
